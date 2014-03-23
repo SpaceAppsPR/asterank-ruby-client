@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/test_asterank.rb"
   ]
-  s.homepage = "http://github.com/crm114/asterank-ruby-client"
+  s.homepage = "http://github.com/SpaceAppsPR/asterank-ruby-client"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.0"
   s.summary = "Asterank Ruby Client"
