@@ -14,11 +14,11 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
-  gem.name = "asterank-ruby-client"
+  gem.name = "asterank-ruby"
   gem.homepage = "http://github.com/crm114/asterank-ruby-client"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Asterank Ruby Client"
+  gem.description = "Ruby Client to connect to Asterank APIs"
   gem.email = "jose@spaceappspr.com"
   gem.authors = ["Jose Irizarry"]
   # dependencies defined in Gemfile
@@ -45,7 +45,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "asterank-ruby-client #{version}"
+  rdoc.title = "asterank-ruby #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
