@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "asterank-ruby"
-  gem.homepage = "http://github.com/crm114/asterank-ruby-client"
+  gem.homepage = "http://github.com/SpaceAppsPR/asterank-ruby-client"
   gem.license = "MIT"
   gem.summary = "Asterank Ruby Client"
   gem.description = "Ruby Client to connect to Asterank APIs"
