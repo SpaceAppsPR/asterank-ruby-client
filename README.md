@@ -26,25 +26,25 @@ require 'asterank-ruby'
 @client = Asterank::Client.new 
 ```
 
-### Query Asterank API
+### Asterank API
 
 ``` ruby
 results = @client.asterank.lt(e: 0.1, i: 4, a: 4).limit(10).execute
 ```
 
-### Query MPC API
+### MPC API
 
 ``` ruby
 results = @client.mpc.lt(e: 0.1, i: 4, a: 4).limit(10).execute
 ```
 
-### Query Kepler API
+### Kepler API
 
 ``` ruby
 results = @client.kepler.lt(TPLANET:320).gt(TPLANET:290).limit(10).execute
 ```
 
-### Query Skymorph API
+### Skymorph API
 
 ``` ruby
 target = "J99TS7A"
