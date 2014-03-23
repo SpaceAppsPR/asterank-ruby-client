@@ -4,7 +4,7 @@ A module for using the Asterank APIs. Sponsored by [Space Apps PR](http://spacea
 
 The Asterank, MPC and Kepler APIs accepts queries that adhere to mongo's json format for a 'find' operation. This gem leverages mongoid's origin gem to construct these queries. 
 
-[Asterank API](http://www.asterank.com/api "Asterank - API") [MPC API](http://www.asterank.com/mpc "MPC - API") [Kepler API](http://www.asterank.com/kepler "Kepler - API") [Skymorph API](http://www.asterank.com/skymorph "Skymorph - API").
+[Asterank API](http://www.asterank.com/api "Asterank - API") | [MPC API](http://www.asterank.com/mpc "MPC - API") | [Kepler API](http://www.asterank.com/kepler "Kepler - API") | [Skymorph API](http://www.asterank.com/skymorph "Skymorph - API").
 
 ## Install
 
@@ -27,23 +27,15 @@ require 'asterank-ruby'
 ```
 
 ### Query Asterank API
-http://www.asterank.com/api/asterank?query={%22e%22:{%22$lt%22:0.1},%22i%22:{%22$lt%22:4},%22a%22:{%22$lt%22:1.5}}&limit=10
+
 ``` ruby
-results = @client.asterank.lt(
-  e: 0.1, 
-    i: 4, 
-    a: 4).limit(10).execute
-
-
+results = @client.asterank.lt(e: 0.1, i: 4, a: 4).limit(10).execute
 ```
 
 ### Query MPC API
 
 ``` ruby
-results = @client.mpc.lt(
-  e: 0.1, 
-    i: 4, 
-    a: 4).limit(10).execute
+results = @client.mpc.lt(e: 0.1, i: 4, a: 4).limit(10).execute
 ```
 
 ### Query Kepler API
