@@ -61,4 +61,4 @@ $ #<File:filename.jpg>
 
 ## More Information
 
-This gems borrows heavily from the twilio-ruby gem in documentation and code design.
+This gem borrows heavily from the twilio-ruby gem in documentation and code design.
