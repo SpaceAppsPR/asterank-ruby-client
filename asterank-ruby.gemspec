@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "asterank-ruby.gemspec",
     "lib/asterank-ruby.rb",
     "lib/asterank-ruby/api/asterank.rb",
     "lib/asterank-ruby/api/kepler.rb",
