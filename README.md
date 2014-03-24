@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/asterank-ruby.png)](http://badge.fury.io/rb/asterank-ruby)
 # asterank-ruby
 
 A module for using the Asterank APIs. Sponsored by [Space Apps PR](http://spaceappspr.com).
